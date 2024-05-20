@@ -157,7 +157,7 @@
   top: 50%;
   margin-left: -40px;
   margin-top: -40px;
-  background: url("/wp-content/themes/creative-portfolio-lite/css/owl.video.play.png") no-repeat;
+  background: url("https://m-fero.github.io/my-portfolio/wp-content/themes/creative-portfolio-lite/css/owl.video.play.png") no-repeat;
   cursor: pointer;
   z-index: 1;
   -webkit-backface-visibility: hidden;
