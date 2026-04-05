@@ -1,0 +1,129 @@
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║                      ✏️  QUICK EDIT GUIDE - START HERE                        ║
+╚═══════════════════════════════════════════════════════════════════════════════╝
+
+📍 MAIN FILE TO EDIT: js/content.js
+   This file contains ALL your portfolio content with clear 📝 EDIT markers!
+
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║  STEP-BY-STEP EDITING GUIDE                                                   ║
+╚═══════════════════════════════════════════════════════════════════════════════╝
+
+1️⃣  PERSONAL INFORMATION (Lines 8-26 in js/content.js)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   ✎ Update your name, title, email, phone
+   ✎ Add your profile photo to: images/
+   ✎ Add your CV PDF to: assets/
+   ✎ Update all social media links (LinkedIn, GitHub, Discord, Spotify)
+
+2️⃣  HOME PAGE SUMMARY (Lines 30-51 in js/content.js)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   ✎ Update your professional subtitle
+   ✎ Edit your tagline
+   ✎ Rewrite the 3 professional summary paragraphs with YOUR experience
+
+3️⃣  PROJECTS (Lines 57-125 in js/content.js)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   📸 Add project screenshots to: images/projects/
+   ✎ For each project, update:
+      - Title
+      - Image path (images/projects/your-screenshot.png)
+      - Description
+      - Technical contributions
+      - Technologies used
+      - Links (demo, GitHub repo, app store)
+   
+   💡 Copy the project template to add more projects!
+
+4️⃣  SKILLS (Lines 131-177 in js/content.js)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   ✎ Add/remove technical skills from the array
+   ✎ Update specializations with YOUR expertise
+
+5️⃣  EDUCATION (Lines 183-197 in js/content.js)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   ✎ Update institution, degree, graduation date
+   ✎ Edit highlights to match YOUR education
+
+6️⃣  WORK EXPERIENCE (Lines 203-298 in js/content.js)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   🏢 Add company logos to: images/companies/
+   ✎ For each job, update:
+      - Position title
+      - Company name
+      - Logo path (images/companies/logo.png)
+      - Start/end dates
+      - Responsibilities (with <strong> tags for emphasis)
+   
+   💡 Copy the experience template to add more positions!
+
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║  IMAGES TO ADD                                                                ║
+╚═══════════════════════════════════════════════════════════════════════════════╝
+
+📂 images/
+   ├── 📸 your-profile-photo.jpg          (256x256px recommended)
+   ├── 📂 projects/
+   │   ├── 📸 project-1-screenshot.png    (800x450px recommended)
+   │   ├── 📸 project-2-screenshot.png
+   │   └── 📸 project-3-screenshot.png
+   └── 📂 companies/
+       ├── 🏢 company-1-logo.png          (PNG with transparency)
+       ├── 🏢 company-2-logo.png
+       └── 🏢 company-3-logo.png
+
+📂 assets/
+   └── 📄 Your-Name-CV-2025.pdf           (Your resume/CV)
+
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║  IMPORTANT NOTES                                                              ║
+╚═══════════════════════════════════════════════════════════════════════════════╝
+
+✅ EDIT THESE FILES:
+   • js/content.js         ← Your portfolio content (MAIN FILE)
+   • css/style.css         ← Styling customizations (optional)
+   • Add images to folders
+
+❌ DON'T EDIT THESE (unless you know what you're doing):
+   • index.html            ← Page structure (already set up)
+   • js/main.js            ← Navigation logic (already working)
+
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║  FILE NAMING TIPS                                                             ║
+╚═══════════════════════════════════════════════════════════════════════════════╝
+
+✅ GOOD filenames:
+   • space-shooter-game.png
+   • arcon-company-logo.png
+   • John-Doe-CV-2025.pdf
+
+❌ AVOID:
+   • Screenshot 1.png (spaces and generic names)
+   • IMG_001.jpg (non-descriptive)
+   • CV Final FINAL.pdf (unprofessional)
+
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║  TESTING YOUR PORTFOLIO                                                       ║
+╚═══════════════════════════════════════════════════════════════════════════════╝
+
+1. Open index.html in your browser
+2. Check all pages: Profile, Projects, Skills, Experience, Contact
+3. Verify images are loading
+4. Test CV download button
+5. Check social media links
+6. Test on mobile (resize browser window)
+
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║  GETTING HELP                                                                 ║
+╚═══════════════════════════════════════════════════════════════════════════════╝
+
+📖 Full documentation: README.md
+🔧 Having issues? Check the Troubleshooting section in README.md
+💡 Look for 📝 EDIT comments in js/content.js - they guide you!
+
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║  YOU'RE READY TO GO! 🚀                                                       ║
+╚═══════════════════════════════════════════════════════════════════════════════╝
+
+Start by opening: js/content.js
+Look for the 📝 EDIT markers and update with your information!
