@@ -302,7 +302,7 @@ const experience = [
         position: "System Administrator",
         company: "NouranMedia",
         // 📝 EDIT: Add company logo
-        logo: "images/companies/nouranmedia-logo.png",
+        logo: "", // Add logo: place nouranmedia-logo.png in images/companies/
         // Example: logo: "images/companies/nouranmedia-logo.png"
         startDate: "09/2014",
         endDate: "10/2016",
