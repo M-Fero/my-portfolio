@@ -13,12 +13,12 @@ const personalInfo = {
     
     // 📝 EDIT: Add your profile image path
     // Place your image in the 'images' folder and update the path below
-    profileImage: "https://ui-avatars.com/api/?name=Mostafa+Fero&background=111&color=f97316&size=128",
+    profileImage: "images/self/profile-photo.png",
     // Example: profileImage: "images/profile-photo.jpg",
     
     // 📝 EDIT: Add your CV/Resume file
     // Place your CV in the 'assets' folder and update the filename
-    cvFile: "Mostafa-Fero-Unity-Developer.pdf",
+    cvFile: "assets/Mostafa-Fero-Unity-Developer.pdf",
     // Example: cvFile: "assets/Mostafa-Fero-CV-2025.pdf",
     
     location: "6 of October City, Egypt",
