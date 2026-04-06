@@ -222,7 +222,7 @@ const experience = [
         company: "STS - Smart Touch Solutions",
         // 📝 EDIT: Add company logo
         // Place logo in 'images/companies/' folder
-        logo: "", // Example: "images/companies/sts-logo.png"
+        logo: "images/companies/sts.png", // Example: "images/companies/sts-logo.png"
         startDate: "04/2025",
         endDate: "Present",
         current: true,
@@ -236,7 +236,7 @@ const experience = [
     {
         position: "Unity Game Developer (Part-Time)",
         company: "ARCON",
-        logo: "",
+        logo: "images/companies/arcon.png",
         startDate: "04/2025",
         endDate: "Present",
         current: true,
@@ -250,7 +250,7 @@ const experience = [
         position: "Unity Game Developer (Full-Time)",
         company: "ARCON",
         // 📝 EDIT: Add company logo
-        logo: "https://m-fero.github.io/wp-content/uploads/2024/06/a40d3a3f-9db2-4eb9-b00e-fb1686f8f1fb-e1717438225308-1.png",
+        logo: "images/companies/arcon.png",
         // Example: logo: "images/companies/arcon-logo.png"
         startDate: "03/2023",
         endDate: "04/2025",
@@ -264,7 +264,7 @@ const experience = [
     {
         position: "Senior Technical Support Specialist",
         company: "Etisalat by E&",
-        logo: "",
+        logo: "images/companies/etisalat.png",
         startDate: "09/2022",
         endDate: "03/2023",
         responsibilities: [
@@ -276,7 +276,7 @@ const experience = [
         position: "Data and Fixed Representative",
         company: "Vodafone",
         // 📝 EDIT: Add company logo
-        logo: "https://m-fero.github.io/wp-content/uploads/2024/06/164bd910-2c64-40c1-86ef-80c71b3eb9ca-1.png",
+        logo: "images/companies/vodafone.png",
         // Example: logo: "images/companies/vodafone-logo.png"
         startDate: "11/2017",
         endDate: "10/2022",
@@ -289,13 +289,27 @@ const experience = [
         position: "Web Developer",
         company: "Diva-Lab",
         // 📝 EDIT: Add company logo
-        logo: "https://m-fero.github.io/wp-content/uploads/2024/06/7e1cb620-5770-491c-b894-022ca0a19f22-1.png",
+        logo: "images/companies/diva.png",
         // Example: logo: "images/companies/divalab-logo.png"
         startDate: "01/2017",
         endDate: "08/2017",
         responsibilities: [
             "<strong>Full-Stack Development:</strong> Implemented both front-end and back-end functionalities utilizing OOP, PHP, and SQL.",
             "<strong>CRUD Operations:</strong> Built interactive user interfaces with AJAX-based CRUD functionality."
+        ]
+    },
+    {
+        position: "System Administrator",
+        company: "NouranMedia",
+        // 📝 EDIT: Add company logo
+        logo: "images/companies/nouranmedia.png",
+        // Example: logo: "images/companies/nouranmedia-logo.png"
+        startDate: "09/2014",
+        endDate: "10/2016",
+        responsibilities: [
+            "<strong>Version Control & Asset Management:</strong> Managed user accounts, permissions, and repositories for smooth collaboration in development teams.",
+            "<strong>Server & Database Administration:</strong> Maintained and configured servers, cloud storage, and databases to support online applications and backend services.",
+            "<strong>Technical Support & Issue Resolution:</strong> Provided IT support, diagnosing and resolving technical problems to ensure a stable environment for developers."
         ]
     }
     
