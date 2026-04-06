@@ -222,7 +222,7 @@ const experience = [
         company: "STS - Smart Touch Solutions",
         // 📝 EDIT: Add company logo
         // Place logo in 'images/companies/' folder
-        logo: "images/companies/sts.png", // Example: "images/companies/sts-logo.png"
+        logo: "images/companies/sts-logo.png", // Example: "images/companies/sts-logo.png"
         startDate: "04/2025",
         endDate: "Present",
         current: true,
@@ -236,7 +236,7 @@ const experience = [
     {
         position: "Unity Game Developer (Part-Time)",
         company: "ARCON",
-        logo: "images/companies/arcon.png",
+        logo: "images/companies/arcon-logo.png",
         startDate: "04/2025",
         endDate: "Present",
         current: true,
@@ -250,7 +250,7 @@ const experience = [
         position: "Unity Game Developer (Full-Time)",
         company: "ARCON",
         // 📝 EDIT: Add company logo
-        logo: "images/companies/arcon.png",
+        logo: "images/companies/arcon-logo.png",
         // Example: logo: "images/companies/arcon-logo.png"
         startDate: "03/2023",
         endDate: "04/2025",
@@ -264,7 +264,7 @@ const experience = [
     {
         position: "Senior Technical Support Specialist",
         company: "Etisalat by E&",
-        logo: "images/companies/etisalat.png",
+        logo: "images/companies/etisalat-logo.png",
         startDate: "09/2022",
         endDate: "03/2023",
         responsibilities: [
@@ -276,7 +276,7 @@ const experience = [
         position: "Data and Fixed Representative",
         company: "Vodafone",
         // 📝 EDIT: Add company logo
-        logo: "images/companies/vodafone.png",
+        logo: "images/companies/vodafone-logo.png",
         // Example: logo: "images/companies/vodafone-logo.png"
         startDate: "11/2017",
         endDate: "10/2022",
@@ -289,7 +289,7 @@ const experience = [
         position: "Web Developer",
         company: "Diva-Lab",
         // 📝 EDIT: Add company logo
-        logo: "images/companies/diva.png",
+        logo: "images/companies/diva-logo.png",
         // Example: logo: "images/companies/divalab-logo.png"
         startDate: "01/2017",
         endDate: "08/2017",
@@ -302,7 +302,7 @@ const experience = [
         position: "System Administrator",
         company: "NouranMedia",
         // 📝 EDIT: Add company logo
-        logo: "images/companies/nouranmedia.png",
+        logo: "images/companies/nouranmedia-logo.png",
         // Example: logo: "images/companies/nouranmedia-logo.png"
         startDate: "09/2014",
         endDate: "10/2016",
