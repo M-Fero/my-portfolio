@@ -242,8 +242,8 @@ const experience = [
         current: true,
         partTime: true, // Special flag for part-time styling
         responsibilities: [
-            "Maintain and support ongoing simulation & training game projects.",
-            "Implement updates, bug fixes, and feature improvements."
+            "<strong>Maintenance & Support:</strong> Maintained and supported ongoing simulation & training game projects.",
+            "<strong>Continuous Integration:</strong> Implemented updates, bug fixes, and feature improvements."
         ]
     },
     {

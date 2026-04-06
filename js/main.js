@@ -119,23 +119,19 @@ const pages = {
             
             <div class="timeline-container mt-8">
                 ${experience.map(job => {
-                    const isPartTime = job.partTime || false;
-                    const dotClass = isPartTime ? '!bg-[#222] !border-gray-600 group-hover:!bg-gray-500 group-hover:!border-white group-hover:!shadow-[0_0_15px_rgba(255,255,255,0.4)]' : '';
-                    const dateClass = isPartTime ? 'text-sm font-bold text-gray-300 bg-[#222] border border-[#444] px-4 py-1.5 rounded-full mb-4 inline-block' : 'text-sm font-bold text-white bg-orange-600 shadow-[0_0_10px_rgba(234,88,12,0.4)] px-4 py-1.5 rounded-full mb-4 inline-block transform transition duration-300 group-hover:scale-105';
-                    const titleClass = isPartTime ? 'text-2xl font-bold text-gray-400 mt-2' : 'text-2xl font-bold text-white mt-2 group-hover:text-orange-500 transition-colors';
-                    const companyClass = isPartTime ? 'text-xl text-gray-600 font-medium mt-1 mb-4' : 'text-xl text-gray-500 font-medium mt-1 mb-4';
-                    const respClass = isPartTime ? 'space-y-2 text-gray-500' : 'space-y-3 text-gray-400';
-                    const bulletClass = isPartTime ? 'text-gray-600 mr-3 mt-1' : 'text-orange-500 mr-3 mt-1 transition-transform group-hover:translate-x-1';
-                    
+                    const dateClass = (job.current && !job.partTime)
+                        ? 'text-sm font-bold text-white bg-orange-600 shadow-[0_0_10px_rgba(234,88,12,0.4)] px-4 py-1.5 rounded-full mb-4 inline-block transform transition duration-300 group-hover:scale-105'
+                        : 'text-sm font-bold text-orange-400 bg-orange-900/20 border border-orange-900/50 px-4 py-1.5 rounded-full mb-4 inline-block transform transition duration-300 group-hover:scale-105';
+
                     return `
                         <div class="timeline-item group">
-                            <div class="timeline-dot ${dotClass}"></div>
+                            <div class="timeline-dot"></div>
                             ${job.logo ? `<img src="${job.logo}" alt="${job.company}" class="company-logo mt-2">` : ''}
                             <span class="${dateClass}">${job.startDate} – ${job.endDate}</span>
-                            <h3 class="${titleClass}">${job.position}</h3>
-                            <h4 class="${companyClass}">${job.company}</h4>
-                            <ul class="${respClass}">
-                                ${job.responsibilities.map(resp => `<li class="flex items-start"><span class="${bulletClass}">▹</span><p>${resp}</p></li>`).join('')}
+                            <h3 class="text-2xl font-bold text-white mt-2 group-hover:text-orange-500 transition-colors">${job.position}</h3>
+                            <h4 class="text-xl text-gray-500 font-medium mt-1 mb-4">${job.company}</h4>
+                            <ul class="space-y-3 text-gray-400">
+                                ${job.responsibilities.map(resp => `<li class="flex items-start"><span class="text-orange-500 mr-3 mt-1 transition-transform group-hover:translate-x-1">▹</span><p>${resp}</p></li>`).join('')}
                             </ul>
                         </div>
                     `;
