@@ -13,7 +13,7 @@ const personalInfo = {
     
     // 📝 EDIT: Add your profile image path
     // Place your image in the 'images' folder and update the path below
-    profileImage: "images/self/profile-photo.png",
+    profileImage: "images/self/Profile-Photo.png",
     // Example: profileImage: "images/profile-photo.jpg",
     
     // 📝 EDIT: Add your CV/Resume file
