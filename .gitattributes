@@ -9,7 +9,7 @@
 Thumbs.db
 
 # IDE files
-.vs
+.vs/
 .vscode/
 .idea/
 *.suo
