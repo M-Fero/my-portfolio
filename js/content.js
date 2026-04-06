@@ -13,7 +13,7 @@ const personalInfo = {
     
     // 📝 EDIT: Add your profile image path
     // Place your image in the 'images' folder and update the path below
-    profileImage: "images/Self/Profile-Photo.png",
+    profileImage: "images/self/Profile-Photo.png",
     // Example: profileImage: "images/profile-photo.jpg",
     
     // 📝 EDIT: Add your CV/Resume file
@@ -238,7 +238,7 @@ const experience = [
         company: "ARCON",
         logo: "images/companies/arcon-logo.png",
         startDate: "04/2025",
-        endDate: "Present",
+        endDate: "02/2026",
         current: true,
         partTime: true, // Special flag for part-time styling
         responsibilities: [
